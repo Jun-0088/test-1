@@ -1,0 +1,44 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+header h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* 游戏区域 */
+#game-area {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #87CEEB; /* 天空蓝背景 */
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+#hoop {
+    position: absolute;
+    top: 10px;
+    width: 120px;
+}
+
+#basketball {
+    position: absolute;
+    bottom: 20px;
+    width: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease; /* 平滑动画 */
+}
+
+#score-area {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+}
